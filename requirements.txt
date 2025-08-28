@@ -13,7 +13,7 @@ loguru>=0.7.0
 # ==================== 网络通信 ====================
 websockets>=10.0,<13.0
 aiohttp>=3.9.0
-requests>=2.31.0
+requests>=2.31,<3.0
 httpx>=0.25.0
 
 # ==================== 配置文件处理 ====================
@@ -79,3 +79,5 @@ xlsxwriter>=3.1.0
 # tempfile, io, csv, xml, html, http, socket, ssl, subprocess, signal
 # inspect, ast, enum, math, decimal, array, queue, contextlib, warnings
 # typing, dataclasses, weakref, gc, platform, stat, glob, fnmatch
+pymysql>=1.0,<2.0
+requests>=2.31,<3.0
